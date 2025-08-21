@@ -6,5 +6,6 @@ nbval==0.9.6
 ipdb==0.13.9
 Flask==2.0.2
 click==8.0.3
-pylint>=2.12,<3.0
+pylint==3.3.8
 wrapt<1.15.0
+astroid==3.3.11
