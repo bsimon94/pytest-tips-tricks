@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest  
     steps:
     - name: Upgrade pip, setuptools, and wheel
-      run: pip install --upgrade pip setuptools wheel wrapt
+      run: pip install --upgrade pip setuptools wheel wrapt pylint
     - uses: actions/checkout@v2
     - name: set up Python 3.12
     - uses: actions/setup-python@v4
