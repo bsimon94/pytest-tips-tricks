@@ -1,14 +1,15 @@
-name: Test Multiple Python Versions
+name: Application test worflows with Github Actions
+
 on: [push]
+
 jobs:
   build:
+  
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: 3.12
+
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python-version
+      - name: Set up Python3.12
         uses: actions/setup-python@v2
         with:
           python-version: 3.12
