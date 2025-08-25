@@ -1,6 +1,6 @@
 pytest==6.2.5
 pytest-cov==3.0.0
-black==21.9b0
+black==21.9.0
 ipython==7.28.0
 nbval==0.9.6
 ipdb==0.13.9
