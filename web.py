@@ -10,7 +10,7 @@ def index():
 
 
 @app.route("/change/<dollar>/<cents>")
-def changeroute(dollar, cents):
+def change_route(dollar, cents):
     print(f"Make Change for {dollar}.{cents}")
     amount = f"{dollar}.{cents}"
     result = change(float(amount))

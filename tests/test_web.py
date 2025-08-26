@@ -1,7 +1,7 @@
 import pytest
 import json
 
-from web import app as flask_app
+from web import app as flask_app, index, change_route
 
 @pytest.fixture
 def app():
@@ -16,7 +16,7 @@ def test_index(app, client):
     assert result.status_code == 200
     assert {"hello": "bob"} == json.loads(result.get_data(as_text=True))
 
-def test_changeroute(app, client):
+def test_change_route(app, client):
     result = client.get("/change/1/34")
     assert result.status_code == 200
     assert [{'5': 'quarters'}, {'1': 'nickels'}, {'4': 'pennies'}] == json.loads(result.get_data(as_text=True))

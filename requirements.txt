@@ -1,11 +1,13 @@
 pytest==6.2.5
 pytest-cov==3.0.0
-black==21.9.0
+black==21.9b0
+coverage==7.10.5
+attrs==25.3.0
 ipython==7.28.0
 nbval==0.9.6
 ipdb==0.13.9
 Flask==2.0.2
 click==8.0.3
 pylint==3.3.8
-wrapt<1.15.0
+wrapt==1.15.0
 astroid==3.3.11
