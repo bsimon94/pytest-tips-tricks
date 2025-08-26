@@ -38,4 +38,10 @@ $ make format
 $ pip freeze | less
 $ make all
 
+$ git status
+$ git add requirements.txt notes.md
+$ git commit -m "updating file requirement.txt"
+$ git config pull.ff only
+$ git pull --tags origin main
 $ git merge --no-ff 
+$ git push
