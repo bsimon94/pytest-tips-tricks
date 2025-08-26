@@ -37,3 +37,6 @@ $ make lint
 $ make format
 $ pip freeze | less
 $ make all
+
+$ git config pull.ff only
+$ git pull --tags origin main
