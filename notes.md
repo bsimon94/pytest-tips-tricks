@@ -38,6 +38,8 @@ $ make format
 $ pip freeze | less
 $ make all
 
+$ pip freeze | less
+
 $ git status
 $ git add requirements.txt notes.md
 $ git commit -m "updating file requirement.txt"
