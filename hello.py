@@ -13,6 +13,3 @@ if __name__ == "__main__":
 # This is nonsense code that generates a warning
 # var = 1
 # var = var
-
-# Bad syntax
-# foo =
